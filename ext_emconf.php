@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "tscobj".
  *
- * Auto generated 06-08-2013 16:58
+ * Auto generated 21-07-2014 09:13
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -14,35 +14,33 @@ $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Content Element From TypoScript',
 	'description' => 'A plugin which lets you use any TypoScript object as a normal content element.',
 	'category' => 'plugin',
-	'shy' => '0',
+	'shy' => true,
+	'version' => '0.2.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
 	'loadOrder' => '',
 	'module' => 'wiz1',
 	'state' => 'stable',
-	'uploadfolder' => '0',
+	'uploadfolder' => true,
 	'createDirs' => '',
 	'modify_tables' => '',
-	'clearCacheOnLoad' => '0',
+	'clearcacheonload' => true,
 	'lockType' => '',
 	'author' => 'Jean-David Gadina',
 	'author_email' => 'macmade@gadlab.net',
 	'author_company' => 'macmade.net',
 	'CGLcompliance' => NULL,
 	'CGLcompliance_note' => NULL,
-	'version' => '0.1.1',
 	'constraints' => 
 	array (
 		'depends' => 
 		array (
-			'typo3' => '',
-			'php' => '',
-			'cms' => '',
+			'php' => '5.2.0-5.5.99',
+			'typo3' => '4.5.0-6.2.99',
 		),
 		'conflicts' => 
 		array (
-			'' => '',
 		),
 		'suggests' => 
 		array (

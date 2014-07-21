@@ -1,15 +1,16 @@
 # TYPO3 Extension "tscobj"
 A plugin which lets you use any TypoScript object as a normal content element.
 
-## Version 0.1.1
+## Version 0.2.0
 
 
 
 
 <table>
-	<tr><td>Version</td><td>0.1.1 stable</td></tr>
-	<tr><td>Release date</td><td>06. August 2005</td></tr>
+	<tr><td>Version</td><td>0.2.0 stable</td></tr>
+	<tr><td>Release date</td><td>18. June 2014</td></tr>
 	<tr><td>Author</td><td>Jean-David Gadina</td></tr>
+	<tr><td>Comment</td><td>Compatibility with TYPO3 4.5 LTS to 6.2 LTS. Multilingual documentation in reStructuredText.</td></tr>
 </table>
 
 ## !! Attention !!
